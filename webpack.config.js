@@ -11,6 +11,14 @@ module.exports = {
           loader: 'babel-loader'
         }
       ]
+    },
+    devServer:{
+        progress:true,
+        contentBase:'build',
+        stats:{colors:true},
+        inline:true,
+        publicPath:'/static/'
     }
+
 
 }
